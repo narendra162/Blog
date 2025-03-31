@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chapter.css">
+</head>
+
+<body>
+    <div class="main">
+        <img class="image"
+            src="https://t3.ftcdn.net/jpg/03/99/24/82/360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX.jpg" alt="">
+    </div>
+    <div class="text">
+        <h1 class="form"> REGESTRATION FORM</h1>
+        <h2 class="name">ENTER YOUR NAME</h2>
+        <input type="text" placeholder="ENTER YOUR NAME">
+        <label> <h2 class="name">SELECT GENDER</h2>
+        <input type="radio" value="gender" name="male">MALE<br>
+        <input type="radio" value="gender" name="male">FEMALE<br>
+        </label>
+        <h3 class="name">ENTER DOB</h3>
+        <input type="datetime-local" placeholder="date">
+        <h4 class="name">ENTER YOUR NUMBER</h3>
+            <input type="text" placeholder="ENTER YOUR NUMBER">
+            <h5 class="name">ENTER YOUR MAIL
+        </h4>
+        <input type="text" placeholder="ENTER YOUR MAIL">
+        <h5 class="name">SELECT DISTRICT</h5>
+        <select name="DISTRICT" id="district">
+            <option value="DISTRICT">VIZIANAGARAM</option>
+            <option value="DISTRICT">VIZAG</option>
+            <option value="DISTRICT">EAST-GODAVARI</option>
+        </select>
+        <h6 class="name">ENTER COUNTRY</h6>
+        <select name="country" id="country">
+            <option value="COUNTRY">INDIA</option>
+            <option value="COUNTRY">AMERICA</option>
+            <option value="COUNTRY">BANGLADESH</option>
+        </select><br>
+        <label>
+            <h9 class="name">I AM NOT A ROBOT</h9>
+        <input  type="checkbox" value="accept" name="yes">
+        </label>
+        <h7 class="name">ENTER MAIL TO SUBMIT</h7>
+        <!-- <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+
+            <button class="submit" type="submit">SUBMIT</button>
+        </form> -->
+        <form action="submit.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+       
+    </div>
+</body>
+
+</html>
